@@ -1,0 +1,40 @@
+body{
+    border: 1px solid black;
+    background-color:aliceblue
+}
+caption{
+    text-align: left;
+}
+table,p,h4{
+    width:55%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+h4,p{
+    width:54.3%;
+}
+thead,h4{
+    background-color: lightgrey;
+}
+tbody,th,td,h4{
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+}
+p{
+    padding: 5px;
+    text-align: left;
+}
+tfoot{
+    border-bottom: 1px;
+}
+.same{
+    color:blue;
+}
+.first{
+    background: black;
+    color:whitesmoke;
+}
